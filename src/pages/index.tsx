@@ -31,7 +31,7 @@ export default function Home () {
 
     const products = data.map(product => {
       return {
-        id: product.item,
+        id: product.id,
         title: product.title,
         price: product.price,
         priceFormatted: formatter.format(product.price)
